@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+width: 100%;
+background: linear-gradient(to top, grey, black, black);
+height: 95vh;
+}
+
+
+.navbar{
+margin: auto;
+width:1200px;
+height:75px;
+}
+
+
+.logo{
+color: white;
+font-size:38px;
+padding-top: 10px;
+padding-left: 20px;
+float: left;
+}
+
+.menu{
+width: 400px;
+height: 70px;
+float: left;
+}
+
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ul li{
+margin-left: 62px;
+margin-top: 27px;
+font-size: 14px;
+}
+
+ul li a{
+text-decoration: none;
+color: white;
+font-family: Arial;
+font-weight: bold;
+}
+
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+width: 200px;
+height: 40px;
+background: transparent;
+margin-top: 13px;
+color: white;
+font-size: 16px;
+float: left;
+padding: 10px;
+}
+
+.btn{
+width: 80px;
+height: 40px;
+background: green;
+margin-top: 14px;
+color: white;
+font-size: 15px;
+margin-left: 7px;
+cursor: pointer;
+}
+
+
+.content{
+width: 1200px;
+height: auto;
+margin: auto;
+color: white;
+position: relative;
+}
+
+.content .par{
+padding-left: 20px;
+padding-bottom: 10px;
+letter-spacing: 1px;
+line-height: 35px;
+}
+
+.content h1{
+font-size: 50px;
+padding-left: 20px;
+margin-top: 9%;
+letter-spacing: 2px;
+}
+
+.content .cn{
+width: 100px;
+height: 36px;
+background: green;
+margin-bottom: 10px;
+margin-left: 20px;
+font-size: 18px;
+cursor: pointer;
+}
+
+.content .cn a{
+text-decoration: none;
+color: white;
+}
+
+.content span{
+color: red;
+font-size: 65px;
+}
+
+.form{
+width: 250px;
+height: 380px;
+background: black;
+position: absolute;
+top: 20px;
+left: 870px;
+border-radius: 10px;
+padding: 25px;
+}
+
+.form h2{
+width: 225px;
+text-align: center;
+color: white;
+font-size: 22px;
+background-color: green;
+border-radius: 0px;
+margin: 0.5px;
+padding: 8px;
+}
+
+.form input{
+width: 240px;
+height: 35px;
+background: transparent;
+color: white;
+font-size: 15px;
+margin-top: 30px;
+}
+
+
+.btnn{
+width: 240px;
+height: 40px;
+background: green;
+margin-top: 30px;
+font-size: 18px;
+cursor: pointer;
+color: white;
+}
+
+
+.btnn a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+
+.form .link{
+font-size: 17px;
+padding-top: 20px;
+text-align: center;
+}
+
+.form .link a{
+text-decoration: none;
+color: red;
+}
+
+
+.footer{
+    color: white;
+    text-align: center;
+    background-color: brown;
+}
+
+.foot1{
+    color: white;
+    text-align: center;
+    background-color: brown;
+}
