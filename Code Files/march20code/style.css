@@ -1,0 +1,162 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body{
+    background-color: antiquewhite;
+    color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    line-height: 1.5em;
+}
+/*
+.container{
+    width: 500px;
+}
+
+.box-1{
+    background-color: darkblue;
+    color: aliceblue;
+
+    border: 5px yellow solid;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: coral;
+    color: white;
+}
+
+#navbar{
+    background-color: #333;
+    color: red;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+/*
+#showcase{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fwhite-silk&psig=AOvVaw2o1rBvCluykrJc4HeUMTLc&ust=1679423112306000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKD2huuQ6_0CFQAAAAAdAAAAABAE);
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+*/
+#showcase h5{
+    color: balck;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+/*
+#sidebar{
+    float: right;
+    width: 30px;
+    background: white;
+    color: grey;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+*/
+
+#main-footer{
+    background: black;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/*
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100px;
+        float: none;
+    }
+}
+*/
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding:20px;
+    margin: 20px 0;
+}
+
+
+.categories{
+    background-color: brown;
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    color: white;
+    text-align: center;
+}
+
+.categories ul{
+    color: white;
+    padding: 0;
+}
