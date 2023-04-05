@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    align-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.heading{
+    color: red;
+}
